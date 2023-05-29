@@ -1,0 +1,23 @@
+﻿  PrinFilaOO.cpp
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\PrinFilaOO.cpp(23,17): warning C4305: 'argumento': truncamento de 'double' para 'Elem'
+          with
+          [
+              Elem=float
+          ]
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\PrinFilaOO.cpp(24,17): warning C4305: 'argumento': truncamento de 'double' para 'Elem'
+          with
+          [
+              Elem=float
+          ]
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\PrinFilaOO.cpp(25,16): warning C4305: 'argumento': truncamento de 'double' para 'Elem'
+          with
+          [
+              Elem=float
+          ]
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\FilaOO.h(86): warning C4715: 'Fila<char>::qfirst': nem todos os caminhos de controle retornam um valor
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\FilaOO.h(75): warning C4715: 'Fila<char>::dequeue': nem todos os caminhos de controle retornam um valor
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\FilaOO.h(86): warning C4715: 'Fila<int>::qfirst': nem todos os caminhos de controle retornam um valor
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\FilaOO.h(75): warning C4715: 'Fila<int>::dequeue': nem todos os caminhos de controle retornam um valor
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\FilaOO.h(86): warning C4715: 'Fila<float>::qfirst': nem todos os caminhos de controle retornam um valor
+C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\FilasOO\FilaOO.h(75): warning C4715: 'Fila<float>::dequeue': nem todos os caminhos de controle retornam um valor
+  FilasOO.vcxproj -> C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\FilasOO\x64\Debug\FilasOO.exe
