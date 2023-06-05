@@ -40,55 +40,65 @@ public:
 		*Pl = aux;
 		TAM++;
 	}
-	Elem RemoveSr(Elem x)
+	char RemoveSr(Elem x)
 	{
 		if (!Lisempty())
 		{
 			no* Pl = L;
-			no* aux = Pl;
 			if (x == L->info)
 			{
 				L = L->prox;
 				delete Pl;
 				TAM--;
-				return x;
+				return 1;
 			}
-			while (Pl->info != x and Pl != NULL)
+			while (Pl->prox and x > Pl->prox->info)
 			{
-				aux = Pl;
 				Pl = Pl->prox;
 			}
-			aux->prox = Pl->prox;
-			delete Pl;
-			TAM--;
-			return x;
+			if (Pl->prox and x == Pl->prox->info)
+			{
+				no* aux = Pl->prox;
+				Pl->prox = aux->prox;
+				delete aux;
+				TAM--;
+				return 1;
+			}
+			return 0;
 		}
 
 	}
-	Elem RemoveCr(Elem x)
+	char RemoveCr(Elem x)
 	{
 		if (!Lisempty())
 		{
 			no* aux = L;
-			while (aux)
+			if (x == L->info)
 			{
-				if (aux->info == x)
+				while (aux and aux->info == x)
 				{
-					if (aux == L)
-					{
-						RemoveSr(x);
-						aux = L;
-					}
-					else
-					{
-						RemoveSr(x);
-						aux = aux->prox;
-					}
+					no* Pl = L;
+					L = L->prox;
+					aux = L;
+					delete Pl;
+					TAM--;
 				}
-				else
-					aux = aux->prox;
+				return 1;
 			}
-			return x;
+			while (aux->prox and x > aux->info)
+				aux = aux->prox;
+			if (aux->prox and aux->prox->info == x)
+			{
+				while (aux->prox and aux->prox->info == x)
+				{
+					no* Pl = aux->prox;
+					aux->prox = Pl->prox;
+					delete Pl;
+					TAM--;
+				}
+				return 1;
+			}
+			return 0;
 		}
 	}
 	Elem Lisempty()

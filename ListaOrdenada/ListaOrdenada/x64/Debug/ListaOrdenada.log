@@ -1,5 +1,1 @@
-﻿  Origem.cpp
-C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\ListaOrdenada\ListaOrdenada\ListaOrdenada.h(123): warning C4715: 'Lista<char>::Mostra': nem todos os caminhos de controle retornam um valor
-C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\ListaOrdenada\ListaOrdenada\ListaOrdenada.h(93): warning C4715: 'Lista<char>::RemoveCr': nem todos os caminhos de controle retornam um valor
-C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\ListaOrdenada\ListaOrdenada\ListaOrdenada.h(67): warning C4715: 'Lista<char>::RemoveSr': nem todos os caminhos de controle retornam um valor
-  ListaOrdenada.vcxproj -> C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\ListaOrdenada\x64\Debug\ListaOrdenada.exe
+﻿  ListaOrdenada.vcxproj -> C:\Users\hdner\OneDrive\Área de Trabalho\Estrutura de Dados 2bimestre\EstruturaDeDados\ListaOrdenada\x64\Debug\ListaOrdenada.exe
